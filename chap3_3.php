@@ -5,7 +5,7 @@ foreach (range(1, 100) as $int) {
     } elseif ($int % 5 == 0) {
         echo("Buzz". " ");
     } elseif ($int % 3 == 0) {
-        echo("Fuzz". " ");
+        echo("Fizz". " ");
     } else {
         echo($int. " ");
     }
