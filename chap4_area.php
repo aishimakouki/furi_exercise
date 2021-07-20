@@ -1,12 +1,16 @@
 <?php
-function calcArea( $top, $bottom, $height ){
+function displayMsg( $top, $bottom, $height ){
     $msg = <<<EOM
 台形のサイズ
-上底 :{$top}
-下底 :{$bottom}
-高さ :{$height}
-面積 : {($top + $bottom) * $height / 2} \n
+上底 : {$top}
+下底 : {$bottom}
+高さ : {$height}
+面積 : {$area} \n
 EOM;
-    echo $msg
+    echo $msg;
+}
+
+function calcArea($area){
+    ($top + $bottom) * $height / 2
 }
 
