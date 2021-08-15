@@ -1,6 +1,6 @@
 <?php
-function displayMsg( $name, $sum, $price ){
-    $msg = <<< EOM
+function displayMsg( $name, $sum, $price ) {
+    $msg = <<<EOM
 
 {$name}様
 ご注文を承りました。
@@ -11,6 +11,6 @@ EOM;
     echo $msg;
 }
 
-function add( $item1, $item2, $item3 ){
+function add( $item1, $item2, $item3 ) {
     return $sum =  $item1 + $item2 + $item3; 
 }
